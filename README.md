@@ -1,0 +1,2 @@
+# atelier_dedalo
+Este repositorio contiene una página web destina a una galería de arte ficticia que realiza subastas. La misma permite a los usuarios ver las obras subastadas (pendiente, en curso o finalizada), apostar por una o varias obras y también ver sus datos. A su vez cuenta con un apartado para el dueño de la galería donde podrá cargar las obras, artistas, nuevas subastas y mediante triggers y vistas visualizar en tiempo real las nuevas ofertas.
