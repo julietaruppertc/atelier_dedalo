@@ -1,0 +1,180 @@
+/* Estilo general */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #3b0032;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Contenedor principal de la obra */
+#obra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 150px auto;
+    padding: 20px;
+    max-width: 1000px; /* Puedes ajustar el tamaño según tus necesidades */
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Imagen a la derecha */
+.imagen-principal {
+    width: 45%; /* Ajusta según el espacio que desees para la imagen */
+    margin: 10px;
+}
+
+/* Información de la obra a la izquierda */
+.info-obra {
+    width: 50%; /* Ajusta según el espacio que desees para los divs */
+    margin: 10px;
+}
+
+/* Títulos */
+h2 {
+    color: #7d2948;
+    text-align: center;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #3b0032;
+    margin: 8px 0;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #7d2948;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Efecto al pasar el ratón sobre el botón */
+button:hover {
+    background-color: #3b0032;
+}
+
+/* Estilo para las imágenes */
+img {
+    width: 100%; /* Ajusta el tamaño de la imagen según el contenedor */
+    height: auto;
+    margin: 10px;
+}
+
+/* Formulario */
+fieldset {
+    border: 2px solid #7d2948;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b0032;
+    text-align: center;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    color: #3b0032;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #7d2948;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #7d2948;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #3b0032;
+}
+
+input[readonly] {
+    background-color: #f1f1f1;
+    color: #666;
+    border: 1px solid #ccc;
+}
+
+select {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #7d2948;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Estilo adicional para centrar el contenido */
+#modificar {
+    text-align: left;
+    margin-top: 70px; 
+    padding: 20px 0px; 
+}
+
+/* Mensajes de error */
+.error {
+    color: red;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Espaciado para los inputs */
+input[type="text"], input[type="number"], input[type="date"], select {
+    margin: 10px 0;
+}
+
+/* Imagen de la obra */
+#modificar img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

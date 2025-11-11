@@ -1,0 +1,161 @@
+/* Estilo general */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #3b0032;
+    line-height: 1.6;
+}
+
+/* Contenedor de la obra con flexbox para que la imagen esté a la izquierda y el texto a la derecha */
+#realizar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen de la obra (a la izquierda) */
+.imagen-obra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%; /* Toma el 40% del ancho disponible */
+    max-width: 400px; /* Establece un ancho máximo para la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.imagen-obra img {
+    width: 100%; /* Ajusta la imagen al 100% del contenedor */
+    height: auto;
+    max-width: 100%; /* Asegura que no se desborde */
+}
+
+/* Información de la obra (a la derecha) */
+.info-obra {
+    flex-basis: 55%; /* Toma el 55% del ancho disponible */
+    padding: 20px;
+    text-align: left;
+}
+
+/* Tabla de ofertas */
+#tabla_buscar, #tabla_vista {
+    margin-top: 50px;
+    padding: 20px 0px;
+}
+
+table {
+    width: 98%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #7d2948;
+    color: white;
+}
+
+th, td {
+    padding: 14px;
+    border: 1px solid #7d2948;
+    text-align: center;
+    font-size: 1rem;
+}
+
+td a {
+    color: #7d2948;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Títulos */
+h2 {
+    color: #7d2948;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #3b0032;
+    margin: 8px 0;
+}
+
+button {
+    background-color: #7d2948;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+fieldset {
+    border: 2px solid #7d2948;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b0032;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    color: #3b0032;
+    
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px -15px;
+    border: 1px solid #7d2948;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+input[type="submit"] {
+    background-color: #7d2948;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3b0032;
+}

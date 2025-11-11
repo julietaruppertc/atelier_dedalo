@@ -1,0 +1,178 @@
+/* Estilo general */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #3b0032;
+    line-height: 1.6;
+}
+
+/* Contenedor de "Iniciar sesión" */
+#iniciar_sesion {
+    margin-top: 50px;
+    padding: 20px 0px;
+    text-align: center; /* Centramos el formulario de iniciar sesión */
+}
+
+/* Estilo del campo de formulario */
+.form-fieldset {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #7d2948;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-fieldset legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7d2948;
+}
+
+/* Estilo de los inputs */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 15px -10px;
+    border: 1px solid #7d2948;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #3b0032;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    color: #3b0032;
+    
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #7d2948;
+    box-shadow: 0 0 5px rgba(125, 41, 72, 0.7);
+}
+
+/* Aseguramos que el botón submit esté centrado */
+.submit-btn {
+    width: auto;
+    font-family: 'Playfair Display', serif;
+    padding: 12px 20px;
+    background-color: #7d2948;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.submit-btn:hover {
+    background-color: #3b0032;
+}
+
+
+/* Estilo del resumen del acordeón "Registrarse" */
+#registrarse summary {
+    background-color: #7d2948;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #7d2948;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto; /* Centramos el resumen */
+    width: 30%; /* Ajustamos el tamaño del botón */
+}
+
+/* Estilo para el contenido dentro del <details> */
+#registrarse[open] summary {
+    background-color: #3b0032;
+}
+
+/* Centramos el contenido de ambos formularios */
+#iniciar_sesion fieldset, #registrarse fieldset {
+    margin: 20px auto;
+    width: 80%; 
+    max-width: 600px; /* Aseguramos que ambos formularios tengan el mismo tamaño */
+}
+
+.boton-contenedor {
+    text-align: center;
+    margin-top: 20px; /* Espaciado opcional */
+}
+
+/* Estilo para el contenedor de datos del usuario */
+#datos_usuario, #modificar fieldset{
+    margin: 50px auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #7d2948;
+    border-radius: 8px;
+    width: 90%;
+}
+
+/* Estilo para los encabezados dentro de los datos del usuario */
+#datos_usuario h2 {
+    color: #7d2948;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los párrafos de los datos del usuario */
+#datos_usuario p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Estilo de las tablas de ofertas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #7d2948;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table a, a {
+    color: #7d2948;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table a:hover {
+    color: #3b0032;
+}
+
+/* Estilo para los mensajes de error o información */
+#datos_usuario p, .table-info {
+    color: #3b0032;
+    font-size: 1.1rem;
+}
+
+/* Estilo para los contenedores de las ofertas de los administradores */
+#datos_usuario .ofertas-table-container {
+    margin-top: 20px;
+}
+
